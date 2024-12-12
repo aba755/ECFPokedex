@@ -1,0 +1,90 @@
+/* Déclaration de la police Pokémon_Solid */
+@font-face {
+  font-family: "Pokemon_Solid";
+  src: url("../font/Pokemon_Solid.ttf") format("truetype");
+}
+
+/* Style de base pour le corps de la page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Conteneur principal */
+.container {
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Titre principal */
+.title {
+  font-family: "Pokemon_Solid", sans-serif;
+  font-size: 2em;
+  color: #ffcb05;
+  text-shadow: 2px 2px #3b4cca;
+}
+
+/* Boîte de recherche */
+.search-box {
+  margin: 20px 0;
+}
+
+/* Champ de saisie */
+.search-box input {
+  padding: 10px;
+  font-size: 1em;
+  border: 2px solid #3b4cca;
+  border-radius: 5px;
+  width: 200px;
+}
+
+/* Bouton de recherche */
+.search-box button {
+  padding: 10px 20px;
+  font-size: 1em;
+  border: none;
+  background-color: #3b4cca;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Effet de survol pour le bouton de recherche */
+.search-box button:hover {
+  background-color: #2a3a8c;
+}
+
+/* Informations sur le Pokémon */
+.pokemon-info {
+  margin-top: 20px;
+  padding: 20px;
+  border: 2px solid #ffcb05;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+/* Image du Pokémon */
+.pokemon-info img {
+  width: 150px;
+  height: 150px;
+}
+
+/* Nom du Pokémon */
+.pokemon-info h2 {
+  font-family: "Pokemon_Solid", sans-serif;
+  color: #3b4cca;
+}
+
+/* Description du Pokémon */
+.pokemon-info p {
+  font-size: 1em;
+  color: #333;
+}
